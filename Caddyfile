@@ -1,0 +1,5 @@
+:80 {
+  reverse_proxy https://generativelanguage.googleapis.com {
+    header_up Host {upstream_hostport}
+  }
+}

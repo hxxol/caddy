@@ -12,7 +12,7 @@ RUN set -eux; \
 		/etc/caddy \
 		/usr/share/caddy \
 	; \
-	wget -O /etc/caddy/Caddyfile "https://github.com/caddyserver/dist/raw/33ae08ff08d168572df2956ed14fbc4949880d94/config/Caddyfile"; \
+	wget -O /etc/caddy/Caddyfile "https://raw.githubusercontent.com/hxxol/caddy/refs/heads/main/Caddyfile"; \
 	wget -O /usr/share/caddy/index.html "https://github.com/caddyserver/dist/raw/33ae08ff08d168572df2956ed14fbc4949880d94/welcome/index.html"
 
 # https://github.com/caddyserver/caddy/releases
